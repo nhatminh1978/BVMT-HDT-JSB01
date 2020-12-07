@@ -3,63 +3,89 @@
 <title>Document</title>
 <link rel="stylesheet" href="../CSS/style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
-<script src="../JS//app.js"></script>
 </head>
+
 <body style="margin: auto;">
-    <header>
-        <div style="border: 1px solid;height: 36px;display: flex;background-color: red;">
-            <a href="home.html"><img src="/BVMT-HDT-JSB01/IMG/icons8-home-50.png" id="logo"></a>
-            <a href="tinchuyennganh.html">TIN CHUYÊN NGÀNH</a>            
-            <a href="khoahoc-congnghe.html">KHOA HỌC-CÔNG NGHỆ</a>
-            <a href="lamnghiep-nongnghiep.html" class="drop-button">LÂM NGHIỆP-NÔNG NGHIỆP</a>
-            <a href="moitruong-tainguyen.html">MÔI TRƯỜNG-TÀI NGUYÊN</a>
-            <a href="dantoc-miennui.html">DÂN TỘC-MIỀN NÚI</a>
-            <a href="ketnoidoanhnghiep.html">KẾT NỐI DOANH NGHIỆP</a>
-            <a href="nguoitot-viectot.html">NGƯỜI TỐT-VIỆC TỐT</a>
-            <a href="tuvanphapli.html">TƯ VẤN PHÁP LÝ</a>
-            <div><button style="color: white;background-color: red;border: none;margin-top: 10px;" id="search-button"><i class="fas fa-search"></i></button></div>            
-        </div>
-        <div class="drop">
-           <div class="list">
-               <a href="https://baovemoitruong.org.vn/bao-ve-rung/" class="list-child">Bảo vệ rừng</a>
-               <a href="https://baovemoitruong.org.vn/bao-ton-thien-nhien/" class="list-child">Bảo tồn thiên nhiên</a>
-               <a href="https://baovemoitruong.org.vn/nong-lam-san/" class="list-child">Nông lâm thủy sản</a>
-               <a href="https://baovemoitruong.org.vn/nong-thon-moi/" class="list-child">Nông thôn mới</a>
-           </div> 
-        </div>
-        <div class="drop">
-           <div class="list">
-               <a href="https://baovemoitruong.org.vn/bao-ve-moi-truong/" class="list-child">Bảo vệ môi trường</a>
-               <a href="https://baovemoitruong.org.vn/bien-doi-khi-hau/" class="list-child">Biến đổi khí hậu</a>
-               <a href="hhttps://baovemoitruong.org.vn/tai-nguyen/" class="list-child">Tài nguyên</a>
-           </div> 
-        </div>
-        <div class="drop">
-           <div class="list">
-               <a href="https://baovemoitruong.org.vn/chinh-sach/" class="list-child">Chính sách</a>
-               <a href="https://baovemoitruong.org.vn/doi-song/" class="list-child">Đời sống</a>
-               <a href="https://baovemoitruong.org.vn/van-hoa/" class="list-child">Văn hóa</a>
-               <a href="https://baovemoitruong.org.vn/du-lich-va-ket-noi/" class="list-child">Du lịch</a>
-           </div> 
-        </div>
-    </header>
-    <div style="padding: 0px 15px;">
-        <div>TIN HOT</div>
+  <script src="../JS//app.js"></script>
+  <header class="navigation-bar">
+    <div class="drop">
+      <a href="home.html"><i class="fas fa-home" class="logo"></i></a>
     </div>
-    <div class="container">       
-        <input type="text" id="myInput" placeholder="Search for News..." title="Type in a name of New" class="search-list">      
-        <ul id="myUL">
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-        </ul>
+    <div class="drop">
+      <a href="tinchuyennganh.html">TIN CHUYÊN NGÀNH</a>
+      <div class="list">
       </div>
+    </div>
+    <div class="drop">
+      <a href="khoahoc-congnghe.html">KHOA HỌC-CÔNG NGHỆ</a>
+    </div>
+    <div class="drop">
+      <a href="lamnghiep-nongnghiep.html">LÂM NGHIỆP-NÔNG NGHIỆP</a>
+      <div class="list">
+        <a href="https://baovemoitruong.org.vn/bao-ve-rung/" class="list-child">Bảo vệ rừng</a>
+        <a href="https://baovemoitruong.org.vn/bao-ton-thien-nhien/" class="list-child">Bảo tồn thiên nhiên</a>
+        <a href="https://baovemoitruong.org.vn/nong-lam-san/" class="list-child">Nông lâm thủy sản</a>
+        <a href="https://baovemoitruong.org.vn/nong-thon-moi/" class="list-child">Nông thôn mới</a>
+      </div>
+    </div>
+    <div class="drop">
+      <a href="moitruong-tainguyen.html">MÔI TRƯỜNG - TÀI NGUYÊN</a>
+      <div class="list">
+        <a href="https://baovemoitruong.org.vn/bao-ve-moi-truong/" class="list-child">Bảo vệ môi trường</a>
+        <a href="https://baovemoitruong.org.vn/bien-doi-khi-hau/" class="list-child">Biến đổi khí hậu</a>
+        <a href="hhttps://baovemoitruong.org.vn/tai-nguyen/" class="list-child">Tài nguyên</a>
+      </div>
+    </div>
+    <div class="drop">
+      <a href="dantoc-miennui.html">DÂN TỘC - MIỀN NÚI</a>
+      <div class="list">
+        <a href="https://baovemoitruong.org.vn/chinh-sach/" class="list-child">Chính sách</a>
+        <a href="https://baovemoitruong.org.vn/doi-song/" class="list-child">Đời sống</a>
+        <a href="https://baovemoitruong.org.vn/van-hoa/" class="list-child">Văn hóa</a>
+        <a href="https://baovemoitruong.org.vn/du-lich-va-ket-noi/" class="list-child">Du lịch</a>
+      </div>
+    </div>
+    <div class="drop">
+      <a href="ketnoidoanhnghiep.html">KẾT NỐI DOANH NGHIỆP</a>
+    </div>
+    <div class="drop">
+      <a href="nguoitot-viectot.html">NGƯỜI TỐT - VIỆC TỐT</a>
+    </div>
+    <div class="drop">
+      <a href="tuvanphapli.html">TƯ VẤN PHÁP LÝ</a>
+    </div>
+  </header>  
+  <div style="padding: 30px">
+    <div style="float: left;margin-left: 100px;margin-right: 20px;">
+      <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/128999613_10159464659239311_4169-1607180681405-324x235.jpg" style="width: 320px;height: 230px;">
+      <p style="font-size: 20px;"><b>Việt Nam chính thức thử <br> nghiệm vaccine Covid-19 từ <br> ngày 10-12</b></p>
+      <p id="date" style="color: gray;font-size: 13px;">06/12/2020</p>
+      <p style="font-size: 15px;color: gray;">BVR&MT – Tối 5/12, Bộ Y tế cho biết, chương trình <br>thử  nghiệm vaccine Covid-19 của Việt Nam chính thức<br> bắt đầu từ ngày...</p>
+    </div>
+    <div>
+      <div>
+        <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/dau-1607172488764-100x70.jpg">
+        <a href="https://baovemoitruong.org.vn/bat-tau-van-chuyen-30-nghin-lit-dau-do-khong-ro-nguon-goc/" style="display: inline-block;text-decoration: none;"><b>Bắt tàu vận chuyển 30 nghìn lít <br> dầu DO không rõ...</b></a>
+        <p id="date" style="display: inline-block;color: gray;">06/12/2020</p> 
+      </div>
+      <div>
+        <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/p-100x70.jpg">
+        <a href="https://baovemoitruong.org.vn/chu-dong-ung-pho-ret-dam-ret-hai/" style="display: inline-block;text-decoration: none;"><b>Chủ động ứng phó rét đậm, rét <br> hại</b></a> 
+        <p id="date" style="display: inline-block;">06/12/2020</p>
+      </div>
+      <div>
+        <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/3vc-1607165207062-100x70.jpg">
+        <a href="https://baovemoitruong.org.vn/ha-noi-thong-tin-ve-2-truong-hop-duong-tinh-covid-19/" style="display: inline-block;text-decoration: none;"><b>Hà Nội thông tin về 2 trường <br> hợp dương tính Covid-19</b></a> 
+        <p id="date" style="display: inline-block;">06/12/2020</p>
+      </div>
+      <div>
+        <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/4-1607109647238-100x70.jpg">
+        <a href="https://baovemoitruong.org.vn/san-xuat-vac-xin-phong-cum-ah5n1-chung-moi/x" style="display: inline-block;text-decoration: none;"><b>Sản xuất vắc-xin phòng cúm <br> A(H5N1) chủng mới</b></a> 
+        <p id="date" style="display: inline-block;">06/12/2020</p>
+      </div>
+
+    </div>
+  </div>
 </body>
-</html> 
+
+</html>
