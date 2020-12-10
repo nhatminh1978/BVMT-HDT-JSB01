@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 header div a{
@@ -10,8 +12,8 @@ header div a{
     display: flex;
     flex-direction: row;      
 }
-a:hover{
-    color: green;
+.list-btn:hover{
+    background-color: #019331;
 }
 .navigation-bar {
     background-color: red;
@@ -35,20 +37,23 @@ a:hover{
 
 .drop:hover .list-child {
     display: block;
-    border-top: 1px solid black;
-    background-color: blue;
-}
+    border: 1px solid black;
+    background-color: white;
 
+}
 .drop:hover {
     position: relative;
 }
-.drop:hover .list {
-    border-top: 1px solid black;
+.drop:hover .list:hover a:hover{
+    background-color:  #019331;
 }
 .container button i{
     outline: none;
     
 }
+/* .hover-text:hover{
+    color: #c80c0c;
+} */
 .container  {
     display: none;
 }
@@ -63,7 +68,17 @@ a:hover{
     width: 218px;
     height: 150px;
 }
-
+#top-up{
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    border: 1px solid lightgray;
+    background-color: white;
+}
+#top-up:hover{
+    background-color: lightgray;
+}
 
 
 

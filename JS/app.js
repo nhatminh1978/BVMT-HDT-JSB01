@@ -50,3 +50,8 @@ switch (current_day) {
     }
 let date = day_name + ", " + today.getDate() + "/" + today.getMonth() + "/" + today.getFullYear();
 document.getElementById("date").innerHTML = date;
+$(function(){
+    $('#top-up').click(function () {
+        $('body,html').animate({scrollTop: 0}, 600);
+    });
+});

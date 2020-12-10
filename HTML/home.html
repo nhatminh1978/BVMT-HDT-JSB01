@@ -1,26 +1,28 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-<link rel="stylesheet" href="../CSS/style.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <title>Document</title>
 </head>
-
 <body style="margin: auto;">
-  
   <header class="navigation-bar">
     <div class="drop">
       <a href="home.html"><i class="fas fa-home" class="logo"></i></a>
     </div>
     <div class="drop">
-      <a href="tinchuyennganh.html">TIN CHUYÊN NGÀNH</a>
+      <a href="tinchuyennganh.html" class="list-btn">TIN CHUYÊN NGÀNH</a>
       <div class="list">
       </div>
     </div>
     <div class="drop">
-      <a href="khoahoc-congnghe.html">KHOA HỌC-CÔNG NGHỆ</a>
+      <a href="khoahoc-congnghe.html" class="list-btn">KHOA HỌC-CÔNG NGHỆ</a>
     </div>
     <div class="drop">
-      <a href="lamnghiep-nongnghiep.html">LÂM NGHIỆP-NÔNG NGHIỆP</a>
+      <a href="lamnghiep-nongnghiep.html" class="list-btn">LÂM NGHIỆP-NÔNG NGHIỆP</a>
       <div class="list">
         <a href="https://baovemoitruong.org.vn/bao-ve-rung/" class="list-child">Bảo vệ rừng</a>
         <a href="https://baovemoitruong.org.vn/bao-ton-thien-nhien/" class="list-child">Bảo tồn thiên nhiên</a>
@@ -29,15 +31,15 @@
       </div>
     </div>
     <div class="drop">
-      <a href="moitruong-tainguyen.html">MÔI TRƯỜNG - TÀI NGUYÊN</a>
+      <a href="moitruong-tainguyen.html" class="list-btn">MÔI TRƯỜNG - TÀI NGUYÊN</a>
       <div class="list">
         <a href="https://baovemoitruong.org.vn/bao-ve-moi-truong/" class="list-child">Bảo vệ môi trường</a>
         <a href="https://baovemoitruong.org.vn/bien-doi-khi-hau/" class="list-child">Biến đổi khí hậu</a>
-        <a href="hhttps://baovemoitruong.org.vn/tai-nguyen/" class="list-child">Tài nguyên</a>
+        <a href="https://baovemoitruong.org.vn/tai-nguyen/" class="list-child">Tài nguyên</a>
       </div>
     </div>
     <div class="drop">
-      <a href="dantoc-miennui.html">DÂN TỘC - MIỀN NÚI</a>
+      <a href="dantoc-miennui.html" class="list-btn">DÂN TỘC - MIỀN NÚI</a>
       <div class="list">
         <a href="https://baovemoitruong.org.vn/chinh-sach/" class="list-child">Chính sách</a>
         <a href="https://baovemoitruong.org.vn/doi-song/" class="list-child">Đời sống</a>
@@ -46,61 +48,225 @@
       </div>
     </div>
     <div class="drop">
-      <a href="ketnoidoanhnghiep.html">KẾT NỐI DOANH NGHIỆP</a>
+      <a href="ketnoidoanhnghiep.html" class="list-btn">KẾT NỐI DOANH NGHIỆP</a>
     </div>
     <div class="drop">
-      <a href="nguoitot-viectot.html">NGƯỜI TỐT - VIỆC TỐT</a>
+      <a href="nguoitot-viectot.html" class="list-btn">NGƯỜI TỐT - VIỆC TỐT</a>
     </div>
     <div class="drop">
-      <a href="tuvanphapli.html">TƯ VẤN PHÁP LÝ</a>
+      <a href="tuvanphapli.html" class="list-btn">TƯ VẤN PHÁP LÝ</a>
     </div>
   </header>
   <div style="padding: 30px">
     <div style="float: left;margin-left: 100px;margin-right: 20px;">
       <img
-        src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/128999613_10159464659239311_4169-1607180681405-324x235.jpg"
-        style="width: 320px;height: 230px;">
-      <p style="font-size: 20px;"><b>Việt Nam chính thức thử <br> nghiệm vaccine Covid-19 từ <br> ngày 10-12</b></p>
-      <p id="date" style="color: gray;font-size: 13px;">06/12/2020</p>
-      <p style="font-size: 15px;color: gray;">BVR&MT – Tối 5/12, Bộ Y tế cho biết, chương trình <br>thử nghiệm
-        vaccine Covid-19 của Việt Nam chính thức<br> bắt đầu từ ngày...</p>
+        src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/091220_TQ-324x235.jpg"
+        style="width: 250px;height: 200px;">
+      <p style="font-size: 20px;margin-top: 10px;"><a href="https://baovemoitruong.org.vn/trung-quoc-ket-an-17-doi-tuong-buon-lau-dong-vat-hoang-da/" style="text-decoration: none;"><b style="color: black">Trung Quốc kết án 17 đối <br> tượng buôn lậu động vật...</b></a></p>
+      <p id="date" style="color: gray;font-size: 10px;margin-top: 5px;">09/12/2020</p>
+      <p style="font-size: 11.5px;color: gray;margin-top: 5px;">BVR&MT – Giới chức tỉnh Hồ Nam, miền trung Trung <br> Quốc vừa kết án tù giam 17 đối tượng vì buôn bán các <br> sản...</p>
     </div>
     <div>
-      <!-- code anh vua sua -->
-      <div style="display: flex;">
-        <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/dau-1607172488764-100x70.jpg">
+      <div style="display: flex">
+        <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/dau-1607172488764-100x70.jpg"
+          style="padding-bottom: 20px;">
         <div>
           <a href="https://baovemoitruong.org.vn/bat-tau-van-chuyen-30-nghin-lit-dau-do-khong-ro-nguon-goc/"
-            style="display: inline-block;text-decoration: none;"><b>Bắt tàu vận chuyển 30 nghìn lít <br> dầu DO không
+            style="display: inline-block;text-decoration: none;padding-left: 10px;font-size: 14px;color: black;"><b>Bắt tàu vận
+              chuyển 30 nghìn lít <br> dầu DO không
               rõ...</b></a>
-          <p id="date" style="display: inline-block;color: gray;">06/12/2020</p>
+          <br>
+          <p id="date" style="display: inline-block;color: gray;padding-left: 10px;font-size: 10px;margin-top: 5px;">09/12/2020</p>
         </div>
       </div>
 
-      <div>
-        <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/p-100x70.jpg">
-        <a href="https://baovemoitruong.org.vn/chu-dong-ung-pho-ret-dam-ret-hai/"
-          style="display: inline-block;text-decoration: none;"><b>Chủ động ứng phó rét đậm, rét <br> hại</b></a>
-        <p id="date" style="display: inline-block;">06/12/2020</p>
+      <div style="display: flex">
+        <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/p-100x70.jpg" style="padding-bottom: 20px;">
+        <div>
+          <a href="https://baovemoitruong.org.vn/chu-dong-ung-pho-ret-dam-ret-hai/"
+            style="display: inline-block;text-decoration: none;padding-left: 10px;font-size: 14px;color: black;"><b>Chủ động ứng phó
+              rét đậm, rét <br> hại</b></a>
+          <br>
+          <p id="date" style="display: inline-block;color: gray;padding-left: 10px;font-size: 10px;margin-top: 5px;">09/12/2020</p>
+        </div>
       </div>
-      <div>
-        <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/3vc-1607165207062-100x70.jpg">
-        <a href="https://baovemoitruong.org.vn/ha-noi-thong-tin-ve-2-truong-hop-duong-tinh-covid-19/"
-          style="display: inline-block;text-decoration: none;"><b>Hà Nội thông tin về 2 trường <br> hợp dương tính
-            Covid-19</b></a>
-        <p id="date" style="display: inline-block;">06/12/2020</p>
+      <div style="display: flex">
+        <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/3vc-1607165207062-100x70.jpg"
+          style="padding-bottom: 20px;">
+        <div>
+          <a href="https://baovemoitruong.org.vn/ha-noi-thong-tin-ve-2-truong-hop-duong-tinh-covid-19/"
+            style="display: inline-block;text-decoration: none;padding-left: 10px;font-size: 14px;color: black;"><b>Hà Nội thông tin
+              về 2 trường <br> hợp dương tính
+              Covid-19</b></a>
+          <br>
+          <p id="date" style="display: inline-block;color: gray;padding-left: 10px;font-size: 10px;margin-top: 5px;">09/12/2020</p>
+        </div>
       </div>
-      <div>
-        <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/4-1607109647238-100x70.jpg">
-        <a href="https://baovemoitruong.org.vn/san-xuat-vac-xin-phong-cum-ah5n1-chung-moi/x"
-          style="display: inline-block;text-decoration: none;"><b>Sản xuất vắc-xin phòng cúm <br> A(H5N1) chủng
-            mới</b></a>
-        <p id="date" style="display: inline-block;">06/12/2020</p>
-      </div>
+      <div style="display: flex">
+        <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/4-1607109647238-100x70.jpg"
+          style="padding-bottom: 20px;">
+        <div>
+          <a href="https://baovemoitruong.org.vn/san-xuat-vac-xin-phong-cum-ah5n1-chung-moi/x"
+            style="display: inline-block;text-decoration: none;padding-left: 10px;font-size: 14px;color: black;"><b>Sản xuất vắc-xin
+              phòng cúm <br> A(H5N1) chủng
+              mới</b></a>
+          <br>
 
+          <p id="date" style="display: inline-block;color: gray;padding-left: 10px;font-size: 10px;margin-top: 5px;">09/12/2020</p>
+        </div>
+      </div>
     </div>
   </div>
+  <div style="display: flex;margin-left: 130px;">
+    <div class="icon">
+      <img src="https://baovemoitruong.org.vn/wp-content/uploads/2017/03/fix-moitruong-Recovered_05-150x88.jpg  ">
+    </div>
+    <div class="icon">
+      <img src="https://baovemoitruong.org.vn/wp-content/uploads/2017/03/fix-moitruong-Recovered_03-150x88.jpg">
+    </div>
+    <div class="icon">
+      <img src="https://baovemoitruong.org.vn/wp-content/uploads/2017/04/170404_TCKS-150x88.jpg">
+    </div>
+    <div class="icon">
+      <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/06/7185f1df0cccf192a8dd7.jpg">
+    </div>
+  </div>
+  <div>
+    <div>
+      <div style="border-bottom: 1px solid red;margin-left: 130px;width: 570px;display: flex;">
+        <div style="background-color: red;width: 200px;margin-top: 20px;">
+          <p style="padding: 3px;color: white;">Bản tin VIDEO chuyên ngành</p>
+        </div>
+        <a href="https://baovemoitruong.org.vn/trang-video/?page-video312554=1" style="color: red;margin-left: 290px;margin-top: 28px;text-decoration: none;font-size: small;">Xem tất cả > ></a>
+      </div>
+      <iframe width="570px" height="350px" src="https://www.youtube.com/embed/T_lvIdlge6U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-left: 130px;margin-top: 5px;"></iframe>
+      <div style="margin-left: 130px;margin-top: 10px;background-color: gray;width: 570px;display: flex">
+        <div style="padding: 5px;">
+          <iframe width="132px" height="100px" src="https://www.youtube.com/embed/c9zWC9aRPf8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>        
+          <p style="font-size: 13px;margin-top: 2px;">Bản tin số 4 - Tháng 11/2020</p> 
+        </div>       
+        <div style="padding: 5px;">
+          <iframe width="132px" height="100px" src="https://www.youtube.com/embed/GuidIcMH32U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p style="font-size: 13px;margin-top: 2px;">Bản tin số 3 - Tháng 11/2020</p>
+        </div>
+        <div style="padding: 5px;">
+          <iframe width="132px" height="100px" src="https://www.youtube.com/embed/kg3Qwxep0gk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p style="font-size: 13px;margin-top: 2px;">Bản tin số 2 - Tháng 11/2020</p>
+        </div>
+        <div style="padding: 5px;">
+          <iframe width="132px" height="100px" src="https://www.youtube.com/embed/SxFvECuuiA0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+          <p style="font-size: 13px;margin-top: 2px;">Bản tin số 4 - Tháng 10/2020</p>
+        </div>        
+      </div>
+    </div>
+    <div>
+      <div style="border-bottom: 1px solid red;margin-left: 130px;width: 570px;display: flex;">
+        <div style="background-color: red;width: 200px;margin-top: 20px;">
+          <p style="padding: 3px;color: white;">KHOA HỌC - CÔNG NGHỆ</p>
+        </div>
+      </div>
+      <div style="margin-left : 130px;display: flex;">
+        <div style="margin-top: 20px;">
+          <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/df_1-324x160.jpg" style="width: 270px;"> 
+          <p><a style="margin-top: 10px;text-decoration: none ;" href="https://baovemoitruong.org.vn/thu-nghiem-vaccine-giai-doan-1-khong-tuyen-nguoi-tung-mac-covid-19/"><b style="color: black;">Thử nghiệm vaccine giai đoạn 1: <br> Không tuyển người từng mắc Covid-19</b></a></p>
+          <p style="font-size: 10px;margin-top: 5px;">09/12/2020</p>
+          <p style="font-size: 11.5px;margin-top: 5px;">BVR&MT – Hôm nay (9/12), Hội đồng Đạo đức y sinh <br> của Bộ Y tế sẽ họp lần cuối để xem xét, phê duyệt...</p>
+        </div>
+        <div style="margin-top: 20px;margin-left: 30px;">
+          <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/ttxvn_dien_mat_troi-324x160.jpg" style="width: 270px;">
+          <p><a style="margin-top: 10px;"><b>Cháy nổ điện Mặt Trời: Cẩn trọng <br> trong lựa chọn thiết bị</b></a>
+          <p style="font-size: 10px;margin-top: 5px;">09/12/2020</p>
+          <p style="font-size: 11.5px;margin-top: 5px;">BVR&MT - Điện Mặt Trời có thể giúp người dân, các <br> nhà đầu tư thu được tiền nhờ bán điện cho ngành điện...</p>
+        </div>        
+      </div>
+      <div style="margin-left: 130px;margin-top: 20px;">
+        <div style="display: flex;">
+          <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/5288-1607352596922-218x150.jpg" width="100px">
+          <div>
+            <a style="font-size: 14px;margin-left: 10px;">Cảnh báo tội phạm bán trực <br> tuyến vaccine Covid-19 gỉa</a>
+            <br>
+            <p id="date" style="display: inline-block;color: gray;padding-left: 10px;font-size: 10px;margin-top: 5px;">08/12/2020</p>
+          </div>
+          <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/128999613_10159464659239311_4169-1607180681405-218x150.jpg" width="100px">
+          <div>
+            <a style="font-size: 14px;margin-left: 10px;">Việt Nam chính thức thử nghiệm <br> vaccine Covid-19 từ ngày 10/12</a>
+            <br>
+            <p id="date" style="display: inline-block;color: gray;padding-left: 10px;font-size: 10px;margin-top: 5px;">08/12/2020</p>
+          </div>
+        </div>
+        <div style="display: flex;">
+          <img src="hhttps://baovemoitruong.org.vn/wp-content/uploads/2020/12/4-1607109647238-100x70.jpg" width="100px">
+          <div>
+            <a style="font-size: 14px;margin-left: 10px;">Sản xuất vắc-xin phòng <br> cúm A(H5N1) chủng mới</a>
+            <br>
+            <p id="date" style="display: inline-block;color: gray;padding-left: 10px;font-size: 10px;margin-top: 5px;">08/12/2020</p>
+          </div>
+          <img src="https://baovemoitruong.org.vn/wp-content/uploads/2020/12/1-1607005322045-100x70.jpeg width="100px">
+          <div>
+            <a style="font-size: 14px;margin-left: 10px;">Cảnh báo tội phạm bán trực <br> tuyến vaccine Covid-19 giả</a>
+            <br>
+            <p id="date" style="display: inline-block;color: gray;padding-left: 10px;font-size: 10px;margin-top: 5px;">08/12/2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="top-up"><img width="40px" height="40px" src="https://i.imgur.com/FqxpIk3.png" alt=""></div>
   <script src="../JS//app.js"></script>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 </body>
-
 </html>
