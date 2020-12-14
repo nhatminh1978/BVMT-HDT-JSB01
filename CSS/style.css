@@ -23,6 +23,17 @@ header div a{
     height: 30px;   
     word-break: keep-all;
 }
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    height: 200px;
+    margin-left: 800px;
+    width: 300px;
+    z-index: -1;
+}
 .navigation-bar .drop a{
     word-break: keep-all;
 }
